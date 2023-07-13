@@ -1,0 +1,115 @@
+body {
+    background-color: #00BB69;
+    font-family: 'Ysabeau SC', sans-serif;
+    margin: 0;
+}
+
+.AddTodo {
+    /* border: 1px solid black; */
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.AddTodo h1 {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.AddTodo-Group {
+    border: 1px solid black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    width: 350px;
+    height: 250px;
+    background-color: #006A3B;
+    color: aliceblue;
+} 
+
+.AddTodo-Group form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#AddTodo-Inp {
+    font-size: 20px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 15px;
+}
+#AddTodo-Inp:focus {
+    border-bottom: 8px solid black;
+    transition: 1s;
+
+}
+
+#AddTodo-Btn {
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 30px;
+    margin-top: 5px;
+    display: inline-block;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #00F98B;
+}
+
+#AddTodo-Btn:hover {
+    background-color: #00BF6B;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.ListTodo {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.WriteTodo{
+    background-color: aliceblue;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.WriteTodo button {
+    float: right;
+    padding: 5px;
+    border: none;
+    background-color: aliceblue;
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.WriteTodo p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    float: left;
+    margin: 0;
+    margin-top: 14px;
+    margin-left: 25px;
+}
+
+.WriteTodo *{
+    display: inline;
+    justify-content: center;
+}
+
+.todo {
+    color: rgb(168, 167, 167);
+    text-decoration: line-through rgb(255, 0, 0);
+}
